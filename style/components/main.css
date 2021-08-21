@@ -1,0 +1,45 @@
+.main {
+    height: 80vh;
+    background-image: url(../../images/back.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h1 {
+    margin-bottom: 72px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--main-font);
+    color: white;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.main h2 {
+    margin-bottom: 36px;
+    font-family: var(--second-font);
+    color: white;
+    font-size: 48px;
+}
+
+.main button {
+    padding: 8px 24px;
+    text-transform: uppercase;
+    font-family: var(--main-font);
+    /* font-weight: bold; */
+    color: white;
+    border: 2px solid white;
+    background: transparent;
+}
+
+.main button:hover {
+    text-decoration: underline;
+    color: #white;
+    border: 2px solid transparent;
+    /* background: linear-gradient(45deg, #fce38a, #e78782); */
+}

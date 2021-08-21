@@ -1,0 +1,36 @@
+.contact {
+    background: #f8f8f8;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input {
+    margin-bottom: 24px;
+    outline: none;
+    padding: 12px 6px;
+    width: 180px;
+    border: 1px solid #f1f1f1;
+    font-family: 'Roboto';
+    font-style: italic;
+}
+
+.contact button {
+    outline: none;
+    width: 120px;
+    padding: 8px 24px;
+    border: none;
+    background: #95e1d3;
+    font-family: var(--main-font);
+    text-transform: uppercase;
+    color: white;
+}
+
+.contact button:hover {
+    text-decoration: underline;
+    background: white;
+    color: #95e1d3;
+}

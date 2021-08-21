@@ -1,0 +1,32 @@
+:root {
+    --main-font: 'Montserrat', sans-serif;
+    --second-font: 'Kaushan Script', cursive;
+}
+
+section {
+    padding: 60px 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    padding: 12px 20%;
+}
+
+h3 {
+    color: black;
+    text-transform: uppercase;
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.red-line {
+    margin-top: 24px;
+    margin-bottom: 48px;
+    width: 64px;
+    height: 4px;
+    background: #f38181;
+    border-radius: 2px;
+}
